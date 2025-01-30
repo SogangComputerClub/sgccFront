@@ -5,8 +5,7 @@ import './SignUp.css';
 function SignUp() {
 
 
-    //     return
-    //     (
+    //     return(
 
     // );
 };
