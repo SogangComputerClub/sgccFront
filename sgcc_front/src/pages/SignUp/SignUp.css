@@ -1,0 +1,16 @@
+.progress-step {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.progress-step.active {
+    background-color: blue;
+    /* 활성화된 단계는 파란색 */
+}
