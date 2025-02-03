@@ -1,5 +1,5 @@
-import React,{ useState } from "react";
-import './login.css';
+import React, { useState } from "react";
+import './Login.css';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -48,9 +48,9 @@ const Login = () => {
           <button
             onSubmit={handleSignup}
             className="w-full mt-4 p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
-            >
+          >
             회원가입
-            </button>
+          </button>
         </form>
       </div>
     </div>

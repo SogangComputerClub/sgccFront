@@ -1,3 +1,57 @@
+/* 기본적인 폼 컨테이너 스타일 */
+.SignUp {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* 각 단계의 스타일 */
+.step {
+    margin-bottom: 20px;
+}
+
+/* 텍스트 입력 필드 스타일 */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* 오류 메시지 스타일 */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* 버튼 스타일 */
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* 버튼 그룹 스타일 (이전 / 다음 버튼) */
+.second-button {
+    display: flex;
+    justify-content: space-between;
+}
+
 .progress-step {
     width: 30px;
     height: 30px;

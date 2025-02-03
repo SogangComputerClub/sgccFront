@@ -13,6 +13,8 @@ function SignUp() {
         id: '',
         password: '',
         confirmPassword: '',
+        terms: false,  // 초기값 설정
+        privacy: false,
     });
     const [errors, setErrors] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -59,6 +61,20 @@ function SignUp() {
         //validateStep의 반환값이 true이면 지금 step에 +1을 해주라~
     }
     const prevStep = () => setStep(step - 1);
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // form 제출 처리
+        if (validateStep()) {
+            // form을 제출하거나 다른 행동을 수행
+            setIsSubmitting(true);
+            // 실제 제출 후 isSubmitting을 false로 변경
+        }
+    }
+
+    <form onSubmit={handleSubmit}>
+        <button type="submit" disabled={isSubmitting}>다음</button>
+    </form>
+
     return (
         <div className='SignUp'>
             <h2>회원가입</h2>
@@ -101,9 +117,9 @@ function SignUp() {
                         {/*required:필수*/}
 
                         <div className="form-group">
-                            <label htmlFor="studentnumber">학번</label>
-                            <input type="text" id="studentnumber" name="studentnumber" value={data.studentnumber} onChange={handleChange} required />
-                            {errors.studentnumber && <p className="error">{errors.studentnumber}</p>}
+                            <label htmlFor="studentid">학번</label>
+                            <input type="text" id="studentid" name="studentid" value={data.studentId} onChange={handleChange} required />
+                            {errors.studentId && <p className="error">{errors.studentId}</p>}
                         </div>
 
                         <div className="form-group">
