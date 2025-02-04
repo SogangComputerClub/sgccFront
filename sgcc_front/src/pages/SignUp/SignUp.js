@@ -114,14 +114,11 @@ function SignUp() {
                             <input type="text" id="name" name="name" value={data.name} onChange={handleChange} required />
                             {errors.name && <p className="error">{errors.name}</p>}
                         </div>
-                        {/*required:필수*/}
-
                         <div className="form-group">
-                            <label htmlFor="studentid">학번</label>
-                            <input type="text" id="studentid" name="studentid" value={data.studentId} onChange={handleChange} required />
+                            <label htmlFor="studentId">학번</label>
+                            <input type="text" id="studentId" name="studentId" value={data.studentId} onChange={handleChange} required />
                             {errors.studentId && <p className="error">{errors.studentId}</p>}
                         </div>
-
                         <div className="form-group">
                             <label htmlFor="email">이메일</label>
                             <input type="email" id="email" name="email" value={data.email} onChange={handleChange} required />
@@ -133,8 +130,8 @@ function SignUp() {
                             {errors.phone && <p className="error">{errors.phone}</p>}
                         </div>
                         <div className="form-group">
-                            <label htmlFor="phone">아이디</label>
-                            <input type="id" id="id" name="id" value={data.id} onChange={handleChange} required />
+                            <label htmlFor="id">아이디</label>
+                            <input type="text" id="id" name="id" value={data.id} onChange={handleChange} required />
                             {errors.id && <p className="error">{errors.id}</p>}
                         </div>
                         <div className="form-group">
