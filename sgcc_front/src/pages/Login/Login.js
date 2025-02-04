@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import './Login.css';
 
-
 const Login = () => {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
