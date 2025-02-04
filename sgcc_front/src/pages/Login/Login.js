@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import './Login.css';
 
+
 const Login = () => {
-  const [email, setEmail] = useState("");
+  const [id, setId] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("로그인 시도:", { email, password });
+    console.log("로그인 시도:", { id, password });
   };
   const handleSignup = () => {
     console.log("회원가입 시도");
@@ -19,12 +20,12 @@ const Login = () => {
         <h2 className="text-2xl font-bold text-center">로그인</h2>
         <form className="mt-4">
           <div>
-            <label className="block text-sm font-medium">이메일</label>
+            <label className="block text-sm font-medium">아이디</label>
             <input
-              type="email"
+              type="id"
               className="w-full p-2 mt-1 border rounded-md focus:ring focus:ring-blue-200"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={id}
+              onChange={(e) => setId(e.target.value)}
               required
             />
           </div>

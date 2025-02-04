@@ -16,3 +16,8 @@
 .App-link {
   color: #61dafb;
 }
+
+/* 모든 버튼에 기본 스타일 적용 */
+button {
+  @apply bg-red-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300;
+}

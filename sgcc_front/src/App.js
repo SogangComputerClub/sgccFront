@@ -9,25 +9,29 @@ import MyPage from './pages/MyPage/MyPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+import { AuthProvider } from './contexts/AuthContext';
+
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className='App'>
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/passwordRecovery" element={<PasswordRecovery />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/mypage" element={<MyPage />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <div className='App'>
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/passwordRecovery" element={<PasswordRecovery />} />
+              <Route path="/signup" element={<SignUp />} />
+              <Route path="/mypage" element={<MyPage />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </AuthProvider>
   );
 }
 

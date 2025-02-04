@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Main() {
-    return <div>SignUp Component</div>;
+    return <div>SGCC weebsite!</div>;
 }
 
 export default Main; 
