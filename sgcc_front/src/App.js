@@ -4,7 +4,9 @@ import Main from './pages/Main/Main';
 import Login from './pages/Login/Login';
 import SignUp from './pages/SignUp/SignUp';
 import PasswordRecovery from './pages/Login/PasswordRecovery';
+import NewPassword from './pages/Login/NewPassword';
 import MyPage from './pages/MyPage/MyPage';
+import Write from './pages/Board/Write';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -24,8 +26,10 @@ function App() {
               <Route path="/" element={<Main />} />
               <Route path="/login" element={<Login />} />
               <Route path="/passwordRecovery" element={<PasswordRecovery />} />
+              <Route path="/NewPassword" element={<NewPassword/>} />
               <Route path="/signup" element={<SignUp />} />
               <Route path="/mypage" element={<MyPage />} />
+              <Route path="/Write" element={<Write />} />
             </Routes>
           </main>
           <Footer />
