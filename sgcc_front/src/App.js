@@ -12,7 +12,7 @@ import BoardDetail from './pages/Board/BoardDetail';
 import Study from './pages/Study/Study';
 import StudyList from './pages/Study/StudyList';
 import StudyDetail from './pages/Study/StudyDetail';
-import LibraryBorrow from './pages/Library/LibraryBorrow';
+import LibraryBorrow from './pages/Library/LibraryBorrow.js';
 import LibraryDetail from './pages/Library/LibraryDetail';
 import LibraryRegister from './pages/Library/LibraryRegister';
 
