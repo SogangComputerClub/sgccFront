@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, { use, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import './Login.css';
 
 const Login = () => {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("로그인 시도:", { id, password });
+    navigate('/Main')
   };
-  // const handleSignup = () => {
+  
+    
+  // const handleSignup = () => { 
   //   console.log("회원가입 시도");
   // }
   // const handlePasswordReset = () => {
