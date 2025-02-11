@@ -1,0 +1,175 @@
+[33mcommit 71c183b647a3e8230307349c1b15a761523b120c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Mon Feb 10 14:03:16 2025 +0900
+
+    s
+
+[33mcommit 2c9e3ca401ff58b40e2966a9eeef8e11e3aa76a1[m
+Author: moxnoxox <moxnoxox3075@outlook.kr>
+Date:   Sat Feb 8 20:39:55 2025 +0900
+
+    이사가좌!!!!!!
+
+[33mcommit 8bf135942438d30bb17b207c1b4144af0d119345[m
+Author: moxnoxox <moxnoxox3075@outlook.kr>
+Date:   Sat Feb 8 20:16:10 2025 +0900
+
+    Feat: Login behaviour
+
+[33mcommit cbbcf68428ca0c8bd1be0d5729d41723c4479691[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Sat Feb 8 20:02:42 2025 +0900
+
+    fix: new pages
+
+[33mcommit d4e963c803e3c6610dbeebee87c4659a1e374768[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Sat Feb 8 19:59:25 2025 +0900
+
+    fix: app.js routers
+
+[33mcommit af3ab2169c30cc2776cec4264c6ffd5dc695db85[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Sat Feb 8 19:46:39 2025 +0900
+
+    feat: study페이지 구현
+
+[33mcommit 67aaf7a3c8d296b8a45b3f6c509087cdc5c6f3e7[m
+Author: moxnoxox <moxnoxox3075@outlook.kr>
+Date:   Sat Feb 8 19:39:29 2025 +0900
+
+    Feat : 비밀번호 재설정, board 글쓰기 페이지
+
+[33mcommit d7070fdcb3bbcca1682a96c27f923fbfdc139a42[m
+Merge: 379aff0 5ff9b60
+Author: moxnoxox <moxnoxox3075@outlook.kr>
+Date:   Wed Feb 5 13:47:45 2025 +0900
+
+    Merge branch 'main' of https://github.com/SogangComputerClub/sgccFront
+
+[33mcommit 379aff05bbb1089b393123c2aeb18aa933ed2b6e[m
+Author: moxnoxox <moxnoxox3075@outlook.kr>
+Date:   Wed Feb 5 13:47:29 2025 +0900
+
+    Feat : password recovery page
+
+[33mcommit 5ff9b60b1474090ad7eb8b2b284a23441d195131[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 16:55:14 2025 +0900
+
+    Update Login.js
+
+[33mcommit e6e0d4a33b58c59d228a23322a588d3fbc941468[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 16:35:21 2025 +0900
+
+    update
+
+[33mcommit 24b6337dd404132be52e2df1eb03ebfcd76526b3[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 15:48:10 2025 +0900
+
+    Update App.js
+
+[33mcommit d617303e20e49a8cc4f5fd1687355003720105ed[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 15:35:20 2025 +0900
+
+    Update Mypage.js
+
+[33mcommit c51b92e0c98e074330f1e5aad20b2ca5742fa602[m
+Merge: 87003ea 237733b
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 14:01:39 2025 +0900
+
+    Merge branch 'main' of https://github.com/SogangComputerClub/sgccFront
+
+[33mcommit 87003ea658c799fe6d4f5330257e6f44fbdba3c4[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 14:01:00 2025 +0900
+
+    all right
+
+[33mcommit 237733b01c6ac3a277a80933ae8f1cc1fa845c5e[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 13:48:17 2025 +0900
+
+    Update Mypage.js
+
+[33mcommit 58bd0732dfe93b1aeeba0be495f8bbf0b074c569[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Tue Feb 4 13:03:27 2025 +0900
+
+    update
+
+[33mcommit 92837ab17b63cc243ea5cdc127331ef062c494cf[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Mon Feb 3 19:19:51 2025 +0900
+
+    challenge
+
+[33mcommit 3575009c12e38168c36cfd3a0b633f1dad9ba5b5[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 22:07:39 2025 +0900
+
+    login
+
+[33mcommit 99291b777ef3a6b628b5a82c06b2857201ecf58b[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 22:01:21 2025 +0900
+
+    signup
+
+[33mcommit fd493220a04202ac2c670beb915c10b5046a85da[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 21:21:05 2025 +0900
+
+    signup
+
+[33mcommit 2f6fe0495025fd823d340f07076ad4b0a76ddbaf[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 20:49:44 2025 +0900
+
+    runtime error fixxed
+    
+    Main이아니라 main이였다
+
+[33mcommit 8c64f05b4fc545e2610ad39eafca099a767ea235[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 20:36:59 2025 +0900
+
+    Update SignUp.js
+
+[33mcommit 4de8c54ca07058a1534b7b17d39b6a33264c250b[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 20:14:45 2025 +0900
+
+    header & footer
+    
+    컴포넌트 기반 개발로 헤더와 푸터를 아예 App.js 수준에서 불러와서 공통된 형식을 사용할 수 있게 함
+
+[33mcommit c83cb050db165c3270dbd11bccc8f52dce7b659b[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 19:53:43 2025 +0900
+
+    Startt
+
+[33mcommit ce81c7f4cf851d5540968c122ada8784579f3294[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 13:29:39 2025 +0900
+
+    cleaning up
+
+[33mcommit e307fb3d7fbf1db00554993bdf34003e42bf0ea7[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 13:18:51 2025 +0900
+
+    tailwind css installed
+    
+    나 진짜 한시간동안 굴러서 겨우 깔았음,,, tailwind웰케 안깔리냐 진짜 욕나옴 퉤퉤투테ㅜ테ㅔㅔㅔ
+
+[33mcommit 1c42fa82c8c6d0f0f6f4bc0962ea04528af446ec[m
+Author: 이다은 <162148102+Amyleefiwfjj@users.noreply.github.com>
+Date:   Thu Jan 30 12:39:25 2025 +0900
+
+    start
